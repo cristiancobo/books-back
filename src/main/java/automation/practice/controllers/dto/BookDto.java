@@ -14,11 +14,25 @@ public class BookDto {
     this.author = author;
   }
 
-  @Getter
-  @Setter
-  private String name;
+  
+  public String getName() {
+	return name;
+}
 
-  @Getter
-  @Setter
+public void setName(String name) {
+	this.name = name;
+}
+
+public String getAuthor() {
+	return author;
+}
+
+public void setAuthor(String author) {
+	this.author = author;
+}
+
+
+private String name;
+
   private String author;
 }
