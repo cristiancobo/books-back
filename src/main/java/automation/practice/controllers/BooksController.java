@@ -15,6 +15,7 @@ public class BooksController {
   public BookDto[] getBooks() {
 
     return new BookDto[] {
+      new BookDto("El Libro", "Cristian Cobo"),
       new BookDto("Patterns of Enterprise Application Architecture", "Martin Fowler"),
       new BookDto("Clean Architecture: A Craftsman's Guide to Software Structure and Design", "Robert C. \"Uncle Bob\" Martin"),
       new BookDto("The Art of Computer Programming", "Donald Knuth "),
